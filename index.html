@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehak's Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar1.png" alt="Mehak" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mehak">Mehak</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:choudharymehakk@example.com" class="contact-link">choudharymehakk@example.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 9311487470" class="contact-link">+91 9311487470</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">05 March, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gurugram , Haryana , India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a Computer Science student with strong expertise in Python, machine learning, and practical problem-solving.
+            I’ve built impactful applications, including a Smart India Hackathon 2023 winning blockchain project, and solutions 
+            using Flask, MongoDB, and Scikit-learn to tackle real-world challenges.
+          </p>
+          <p>
+            I enjoy transforming ideas into functional digital experiences while ensuring that technology remains intuitive and impactful.
+             With hands-on exposure to modern tools and systems, I bring a strong analytical mindset, initiative,
+             and collaboration skills to every project I take on.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/webapp.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Application Development</h4>
+
+                <p class="service-item-text">
+                  Developing scalable, efficient websites and applications 
+                  using Flask, MongoDB, SQL, and clean backend logic.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & NLP Development</h4>
+
+                <p class="service-item-text">
+                  Building predictive models and intelligent systems using Python, 
+                  Scikit-learn, NLP, and data science techniques.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/network.png" alt="network" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Network & Infrastructure</h4>
+
+                <p class="service-item-text">
+                  Hands-on experience with Cisco routing & switching, VLANs, OSPF, 
+                  and IT/ELV system design using AutoCAD.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics & Visualization</h4>
+
+                <p class="service-item-text">
+                  Transforming raw data into insights using Pandas, NumPy, Matplotlib, Seaborn.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/blockchain.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blockchain-Based Solutions</h4>
+
+                <p class="service-item-text">
+                  Building secure and tamper-proof applications using smart contracts.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!--
+          - awards & achievements section (previously named testimonials)
+          - renamed for clarity; contains awards, not testimonials
+        -->
+        <section class="awards">
+
+           <h3 class="h3 testimonials-title">Awards & Achievements</h3>
+
+  <!-- Small quote under the heading -->
+              <p class="section-quote">
+                “Innovation for me isn’t just about ideas — it’s about turning those ideas into impact.”
+              </p>
+
+  <ul class="awards-list has-scrollbar">
+
+    <!-- SIH Winner -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <!-- put a trophy / SIH logo here -->
+          <img src="./assets/images/sih.png" alt="Smart India Hackathon 2023 – Winner" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>
+          Smart India Hackathon 2023 – Winner
+        </h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Built a blockchain-based certification generator using smart contracts to issue and
+            verify secure, tamper-proof digital credentials.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <!-- Dean's Honor List -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/dean-honorlist.png"
+               alt="Dean’s Honor List 2025"
+               width="60"
+               data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>
+          Dean’s Honor List – 2025
+        </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                  Recognized for securing top academic performance 
+                  in the B.Tech Computer Science program during the 2025 academic term.
+                  </p>
+                </div>
+
+      </div>
+    </li>
+
+    <!-- Drone & Robotics Bootcamp -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/iit-mandi.png" alt="Drone & Robotics Bootcamp – IIT Mandi" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>
+          Drone & Robotics Bootcamp – IIT Mandi
+        </h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Selected to participate in an intensive program on drones, robotics and UAV innovation.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <!-- Secretary General -->
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/mun.png" alt="Secretary General – SFS MUN COLLOQUIUM XI" width="60" data-testimonials-avatar>
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>
+          Secretary General – SFS MUN COLLOQUIUM XI
+        </h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Led and coordinated the conference, managing teams, agendas and event execution.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+<!--
+  - awards modal (reusing the same modal logic)
+-->
+
+<div class="modal-container" data-modal-container>
+
+  <div class="overlay" data-overlay></div>
+
+  <section class="testimonials-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <!-- default image, JS will replace on click -->
+        <img src="./assets/images/sih.png"
+             alt="Smart India Hackathon 2023 – Winner"
+             width="80"
+             data-modal-img>
+      </figure>
+
+      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+
+    <div class="modal-content">
+
+      <h4 class="h3 modal-title" data-modal-title>
+        Smart India Hackathon 2023 – Winner
+      </h4>
+
+      <time datetime="2023-08-01">2023</time>
+
+      <div data-modal-text>
+        <p>
+          Built a blockchain-based certification generator using smart contracts to issue and
+          verify secure, tamper-proof digital credentials.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<!--
+  - collaborations / programs (replacing clients)
+-->
+
+<section class="clients">
+
+  <h3 class="h3 clients-title">Collaborations & Programs</h3>
+
+  <ul class="clients-list has-scrollbar">
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="./assets/images/sih.png" alt="Smart India Hackathon">
+        
+
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="./assets/images/iit-mandi.png" alt="IIT Mandi Bootcamp">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="./assets/images/zerone.webp" alt="Zerone Technologies Pvt. Ltd.">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="./assets/images/krmu.webp" alt="K.R. Mangalam University">
+      </a>
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="./assets/images/mun.png" alt="SFS MUN COLLOQUIUM XI">
+      </a>
+    </li>
+
+  </ul>
+
+</section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- Add Button Here -->
+  <div class="resume-buttons">
+
+  <a href="/vcard-personal-portfolio/assets/mehakk149.pdf" 
+     download 
+     class="btn-resume">
+    <ion-icon name="download-outline"></ion-icon>
+    Download Resume
+  </a>
+
+  <a href="/vcard-personal-portfolio/assets/mehakk149.pdf" 
+     target="_blank" 
+     class="btn-view">
+    <ion-icon name="document-text-outline"></ion-icon>
+    View Online
+  </a>
+
+</div>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">K.R. Mangalam University — Bachelor of Technology (CSE)</h4>
+
+              <span>2022-2026</span>
+
+              <p class="timeline-text">
+                Pursuing B.Tech in Computer Science Engineering with a focus on Machine Learning,
+                Web Development, and Blockchain technologies.
+                 Achieved strong academic performance with an SGPA of 8.2
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Summer Fields School, Gurgaon</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Senior Secondary Education (CBSE) — Science Stream (PCM)
+                Percentage: <strong>87%</strong>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Summer Fields School, Gurgaon</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                Secondary School Education (CBSE)
+                 Percentage: <strong>90%</strong>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Network Intern - Zerone Technologies Pvt. Ltd., Gurugram</h4>
+
+              <span>June 2025 — August 2025</span>
+
+              <p class="timeline-text">
+                Designed IT and ELV network infrastructure using AutoCAD  
+                • Configured networking concepts including Cisco routing, VLANs, and OSPF  
+                • Contributed to client-based projects by implementing core networking solutions 
+              </p>
+
+            </li>
+
+            
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Python</h5>
+      <data value="90">90%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 90%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Machine Learning</h5>
+      <data value="85">85%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 85%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Natural Language Processing</h5>
+      <data value="80">80%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 80%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Flask</h5>
+      <data value="82">82%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 82%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">SQL</h5>
+      <data value="78">78%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 78%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">MongoDB</h5>
+      <data value="75">75%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 75%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Networking (Cisco + VLAN + OSPF)</h5>
+      <data value="70">70%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 70%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Blockchain (Smart Contracts)</h5>
+      <data value="75">75%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 75%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Data Visualization</h5>
+      <data value="80">80%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 80%;"></div>
+    </div>
+  </li>
+
+  <li class="skills-item">
+    <div class="title-wrapper">
+      <h5 class="h5">Git & GitHub</h5>
+      <data value="85">85%</data>
+    </div>
+    <div class="skill-progress-bg">
+      <div class="skill-progress-fill" style="width: 85%;"></div>
+    </div>
+  </li>
+
+</ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+  <li class="filter-item">
+    <button class="active" data-filter-btn>All</button>
+  </li>
+
+  <li class="filter-item">
+    <button data-filter-btn>Machine Learning</button>
+  </li>
+
+  <li class="filter-item">
+    <button data-filter-btn>Web Applications</button>
+  </li>
+
+  <li class="filter-item">
+    <button data-filter-btn>Blockchain</button>
+  </li>
+
+</ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+             <div class="select-value" data-selecct-value>Select category</div>
+
+             <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+             </div>
+
+             </button>
+
+  <ul class="select-list">
+
+    <li class="select-item">
+      <button data-select-item>All</button>
+    </li>
+
+    <li class="select-item">
+      <button data-select-item>Machine Learning</button>
+    </li>
+
+    <li class="select-item">
+      <button data-select-item>Web Applications</button>
+    </li>
+
+    <li class="select-item">
+      <button data-select-item>Blockchain</button>
+    </li>
+
+  </ul>
+
+</div>
+  
+
+          <ul class="project-list">
+
+  <!-- Mentora -->
+  <li class="project-item active" data-filter-item data-category="web applications">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <!-- add your Mentora screenshot here -->
+        <img src="./assets/images/mentors.PNG" alt="Mentora" loading="lazy">
+      </figure>
+
+      <h3 class="project-title">Mentora</h3>
+      <p class="project-category">Web Applications</p>
+      <div class="project-buttons">
+    <a href="https://mentora3.onrender.com/" target="_blank" class="btn-live">
+      <ion-icon name="link-outline"></ion-icon> Live Demo
+    </a>
+
+    <a href="https://github.com/choudharymehakk/TechPairr.git" target="_blank" class="btn-code">
+      <ion-icon name="logo-github"></ion-icon> Source Code
+    </a>
+  </div>
+    </a>
+  </li>
+
+  <li class="project-item active" data-filter-item data-category="machine learning">
+
+  <figure class="project-img">
+    <div class="project-item-icon-box">
+      <ion-icon name="eye-outline"></ion-icon>
+    </div>
+
+    <img src="./assets/images/Screenshot (32).png" alt="DDI Project" loading="lazy">
+  </figure>
+
+  <h3 class="project-title">Drug-Drug Interaction Prediction System</h3>
+
+  <p class="project-category">Machine Learning</p>
+
+  <div class="project-buttons">
+    <a href="https://drug-drug-interaction.onrender.com/" target="_blank" class="btn-live">
+      <ion-icon name="link-outline"></ion-icon> Live Demo
+    </a>
+
+    <a href="https://github.com/your-repo-link" target="_blank" class="btn-code">
+      <ion-icon name="logo-github"></ion-icon> Source Code
+    </a>
+  </div>
+
+</li>
+
+  <!-- Crop Recommendation System -->
+  <li class="project-item active" data-filter-item data-category="machine learning">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <!-- crop system UI / graph screenshot -->
+        <img src="./assets/images/agricrop.webp" alt="Crop Recommendation System" loading="lazy">
+      </figure>
+
+      <h3 class="project-title">Crop Recommendation System</h3>
+      <p class="project-category">Machine Learning</p>
+      <div class="project-buttons">
+    <a href="https://your-live-link.com" target="_blank" class="btn-live">
+      <ion-icon name="link-outline"></ion-icon> Live Demo
+    </a>
+
+    <a href="https://github.com/your-repo-link" target="_blank" class="btn-code">
+      <ion-icon name="logo-github"></ion-icon> Source Code
+    </a>
+  </div>
+    </a>
+  </li>
+
+  <!-- Blockchain-Based Certification Generator (SIH Winner) -->
+  <li class="project-item active" data-filter-item data-category="blockchain">
+    <a href="#">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <!-- screenshot of cert generator dashboard or blockchain flow -->
+        <img src="./assets/images/certsecure.PNG" alt="Blockchain-Based Certification Generator" loading="lazy">
+      </figure>
+
+      <h3 class="project-title">Blockchain-Based Certification Generator</h3>
+      <p class="project-category">Blockchain</p>
+      <div class="project-buttons">
+    <a href="https://your-live-link.com" target="_blank" class="btn-live">
+      <ion-icon name="link-outline"></ion-icon> Live Demo
+    </a>
+
+    <a href="https://github.com/choudharymehakk/Certsecure-SIH-2023.git" target="_blank" class="btn-code">
+      <ion-icon name="logo-github"></ion-icon> Source Code
+    </a>
+  </div>
+    </a>
+  </li>
+
+</ul>
+
+            
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-hero">
+
+  <div class="contact-hero-text">
+    <h3 class="h3">Let’s build something meaningful together.</h3>
+    <p>
+      Whether it’s a machine learning project, a web application, or an idea you’re still
+      shaping — I’d love to collaborate and turn it into something real.
+    </p>
+  </div>
+
+  <div class="contact-hero-image">
+    <!-- Put your own image here (portrait or aesthetic desk shot) -->
+    <img src="./assets/images/avatar2.png"
+         alt="Mehak Choudhary — working on a laptop">
+  </div>
+
+</section>
+
+        
+        <section class="contact-info">
+
+  <ul class="contact-list">
+
+    <li class="contact-item">
+      <div class="contact-icon">
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+      <div class="contact-detail">
+        <p class="contact-title">Name</p>
+        <p class="contact-text">Mehak Choudhary</p>
+      </div>
+    </li>
+
+    <li class="contact-item">
+      <div class="contact-icon">
+        <ion-icon name="mail-outline"></ion-icon>
+      </div>
+      <div class="contact-detail">
+        <p class="contact-title">Email</p>
+        <a href="mailto:choudharymehakk@gmail.com" class="contact-text">
+          choudharymehakk@gmail.com
+        </a>
+      </div>
+    </li>
+
+    <li class="contact-item">
+      <div class="contact-icon">
+        <ion-icon name="call-outline"></ion-icon>
+      </div>
+      <div class="contact-detail">
+        <p class="contact-title">Phone</p>
+        <a href="tel:+919311487470" class="contact-text">
+          +91 9311487470
+        </a>
+      </div>
+    </li>
+
+    <li class="contact-item">
+      <div class="contact-icon">
+        <ion-icon name="location-outline"></ion-icon>
+      </div>
+      <div class="contact-detail">
+        <p class="contact-title">Location</p>
+        <p class="contact-text">Gurugram, Haryana, India</p>
+      </div>
+    </li>
+
+    <li class="contact-item">
+      <div class="contact-icon">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </div>
+      <div class="contact-detail">
+        <p class="contact-title">LinkedIn</p>
+        <a href="https://www.linkedin.com/in/mehak-choudhary" target="_blank" class="contact-text">
+          linkedin.com/in/mehak-choudhary
+        </a>
+      </div>
+    </li>
+
+    <li class="contact-item">
+      <div class="contact-icon">
+        <ion-icon name="logo-github"></ion-icon>
+      </div>
+      <div class="contact-detail">
+        <p class="contact-title">GitHub</p>
+        <a href="https://github.com/choudharymehakk" target="_blank" class="contact-text">
+          github.com/choudharymehakk
+        </a>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
