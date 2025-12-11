@@ -1,0 +1,11 @@
+# Ignore resume
+assets/*.pdf
+
+# Ignore personal contact files
+private/
+contact-details.txt
+
+# System junk
+.DS_Store
+Thumbs.db
+*.log
