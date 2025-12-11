@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website showcasing my skills, experience
 Built using HTML, CSS, and JavaScript with a clean UI and interactive components.
 
 ## 🚀 Live Website
-👉 **Live Portfolio:**
+👉 **Live Portfolio:** https://choudharymehakk.github.io/mehak-portfolio/
 
 ## 📌 About This Portfolio
 This website highlights:
